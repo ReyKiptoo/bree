@@ -40,18 +40,7 @@ const Projects = () => {
             ],
             icon: <Users size={24} />
         },
-        {
-            title: 'Green Energy Infrastructure Pilot',
-            category: 'Sustainability & Infrastructure',
-            role: 'Project Lead',
-            description: 'Managed the installation of solar power systems for a commercial complex, promoting renewable energy adoption.',
-            highlights: [
-                'Ensured regulatory compliance and safety standards.',
-                'Managed procurement of technical equipment.',
-                'Delivered project 2 weeks ahead of schedule.'
-            ],
-            icon: <DollarSign size={24} />
-        }
+
     ];
 
     return (
