@@ -212,9 +212,9 @@ section {
     gap: 4rem;
     /* Reverted Diagonal Split Background (Top-Left to Bottom-Right divide) 
        115deg goes NW->SE. 
-       NW (Sec) -> SE (Pri). Text (Left/NW) gets Sec. Image (Right/SE) gets Pri.
+       NW (Pri) -> SE (Sec). Text (Left/NW) gets Pri (Darker). Image (Right/SE) gets Sec (Lighter).
     */
-    background: linear-gradient(115deg, var(--bg-secondary) 50%, var(--bg-primary) 50%);
+    background: linear-gradient(115deg, var(--bg-primary) 50%, var(--bg-secondary) 50%);
   }
 
   .hero-image-wrapper {
