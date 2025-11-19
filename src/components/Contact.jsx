@@ -25,7 +25,7 @@ const Contact = () => {
                     >
                         <h3 style={{ fontSize: '1.8rem', color: 'var(--text-primary)', marginBottom: '1rem' }}>Let's Connect</h3>
                         <p style={{ color: 'var(--text-secondary)', marginBottom: '3rem' }}>
-                            I'm currently open to new opportunities and collaborations in Civil Engineering and Infrastructure Development.
+                            I'm currently open to new opportunities and collaborations in Project Management and Civil Engineering.
                         </p>
 
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', alignItems: 'center' }}>
