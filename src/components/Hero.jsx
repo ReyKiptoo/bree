@@ -51,7 +51,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.3 }}
-                    style={{ maxWidth: '600px', marginBottom: '2.5rem', marginLeft: 'auto' }}
+                    style={{ maxWidth: '600px', marginBottom: '2.5rem' }}
                 >
                     <p style={{ fontSize: '1rem', color: 'var(--text-secondary)' }}>
                         Civil Engineer | Project Manager | KYGN Executive.

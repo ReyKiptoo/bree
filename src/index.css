@@ -205,12 +205,15 @@ section {
 
 @media (min-width: 768px) {
   .hero-container {
-    flex-direction: row-reverse;
-    /* Image Left, Text Right */
+    flex-direction: row;
+    /* Text Left, Image Right */
     justify-content: space-between;
     text-align: left;
     gap: 4rem;
-    /* Diagonal Split Background */
+    /* Reverted Diagonal Split Background (Top-Left to Bottom-Right divide) 
+       115deg goes NW->SE. 
+       NW (Sec) -> SE (Pri). Text (Left/NW) gets Sec. Image (Right/SE) gets Pri.
+    */
     background: linear-gradient(115deg, var(--bg-secondary) 50%, var(--bg-primary) 50%);
   }
 
@@ -221,7 +224,7 @@ section {
 
   .hero-content {
     align-items: flex-start;
-    text-align: right;
-    /* Text on right side */
+    text-align: left;
+    /* Text on left side */
   }
 }
