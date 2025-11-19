@@ -209,27 +209,28 @@ section {
     /* Text Left, Image Right */
     justify-content: space-between;
     text-align: left;
-    gap: 4rem;
     /* Uniform Dark Background */
     background: var(--bg-primary);
   }
 
   .hero-image-wrapper {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    aspect-ratio: 1;
   }
 
   .hero-content {
-    flex: 0 0 65%;
-    max-width: 65%;
+    flex: 0 0 60%;
+    max-width: 60%;
     align-items: flex-start;
     text-align: left;
     /* Text on left side */
   }
 
   .hero-image-container {
-    flex: 0 0 35%;
-    max-width: 35%;
+    flex: 0 0 40%;
+    max-width: 40%;
     justify-content: center;
   }
 }
