@@ -52,9 +52,7 @@ const Header = () => {
             <li key={link.name}>
               <a
                 href={link.href}
-                style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', fontWeight: '500' }}
-                onMouseOver={(e) => (e.target.style.color = 'var(--accent)')}
-                onMouseOut={(e) => (e.target.style.color = 'var(--text-secondary)')}
+                className="nav-link"
               >
                 {link.name}
               </a>
