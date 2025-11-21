@@ -12,7 +12,7 @@ const Hero = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <h2 style={{ color: 'var(--accent)', fontSize: '1rem', marginBottom: '0.5rem', fontWeight: '500' }}>
-                        Hi, my name is
+                        Hi, I'm
                     </h2>
                 </motion.div>
 
